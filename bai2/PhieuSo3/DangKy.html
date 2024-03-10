@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dang ky</title>
+</head>
+<body>
+    <form action="" method="post" >
+        <h1 align="center">Phiếu đăng ký tham gia chương trình khuyến mãi</h1>
+        <table width="600px" border="1" align="center" cellpadding="5px" cellspacing="0px" style="background-color: rgb(84, 230, 181);">
+            <tr>
+                <td>
+                    <label for="name">Họ và tên</label>
+                </td>
+                <td>
+                    <input type="text" id="name" name="name" required>
+                </td>
+                <tr>
+                    <td>
+                        <label for="address">Địa chỉ</label>
+                    </td>
+                    <td>
+                        <input type="text" name="address" id="address" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="telephone">Điện thoại</label>
+                    </td>
+                    <td>
+                        <input type="text" name="telephone" id="telephone" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="gioitinh">Phái</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="gioitinh" id="nam" value="nam">
+                        <label for="nam">Nam</label>
+                        <input type="radio" name="gioitinh" id="nu" value="nu">
+                        <label for="nu">Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Job">Nghề nghiệp</label>
+                    </td>
+                    <td>
+                        <select name="Job" id="Job">
+                            <option value="teacher">Giáo viên</option>
+                            <option value="webdesign">Web developer</option>
+                            <option value="Kysuphanmem">Software engineer</option>
+                            <option value="Hardware">Hardware engineer</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="choose">Chọn sản phẩm tham gia</label>
+                    </td>
+                    <td>
+                        <select name="choose" id="choose" multiple>
+                            <option value="teacher">Kem đánh răng</option>
+                            <option value="webdesign">Bột giặt</option>
+                            <option value="Kysuphanmem">Dầu gội đầu</option>
+                            <option value="Hardware">Sữa tắm</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="guest">Số người dự đoán tham gia</label>
+                    </td>
+                    <td>
+                        <input type="number" name="guest" id="guest" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <button type="submit">Đồng ý</button>
+                    </td>
+                </tr>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
